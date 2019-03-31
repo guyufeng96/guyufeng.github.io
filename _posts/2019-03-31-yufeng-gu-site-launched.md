@@ -3,7 +3,8 @@ layout: post
 title: "An Overview on the Bootstrap"
 date: 2019-03-31
 ---
-# Yufeng Gu, Huajin Yu
+## Yufeng Gu, Huajin Yu
+---
 ## Abstract
 In this paper, we try to illustrate the basic ideas and methods of the bootstrap by means of which people have access to estimation of the sampling distribution of almost any statistic using random sampling methods. The first two sections show its origin and theoretical background, and then provide a general process to apply the bootstrap. A simple case is shown for you to understand the ideas. In the end, we briefly discuss the advantages and disadvantages of the bootstrap.
 ## 1 Introduction
