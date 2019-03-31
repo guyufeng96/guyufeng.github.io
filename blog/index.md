@@ -1,7 +1,4 @@
-<html>
-layout: default
-title: Yufeng Gu's Blog
-</html>
+# Yufeng Gu's Blog
 	<h1>{{ page.title }}</h1>
 	<h2 class="posts">
 		<a href="{{site.baseurl}}/homework/hw1.pdf">18 Mar. 2019, Homework 1: Foundations of Statistical Learning.</a><br />
