@@ -1,4 +1,3 @@
-# Yufeng Gu's Blog
 <html>
 	<h1>{{ page.title }}</h1>
 	<h2 class="posts">
