@@ -3,11 +3,9 @@ layout: post
 title: "An Overview on the Bootstrap"
 date: 2019-03-31
 ---
-\documentclass{journal}
 \usepackage{enumerate}
 \usepackage{indentfirst}
 \setlength{\parindent}{1em}
-\pagestyle{plain}
 \title{An Overview on the Bootstrap}
 \author{Yufeng Gu, Huajin Yu}
 
