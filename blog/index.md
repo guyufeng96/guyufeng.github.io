@@ -1,4 +1,5 @@
 # Welcom to Yufeng Gu's Blog!
+<head>
 <h2>
 	<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
@@ -12,7 +13,6 @@
 		<li>31 Mar 2019 » <a href="{{site.baseurl}}/homework/hw2.pdf">An overview on the bootstrap.</a><br/>
 		<li>18 Mar 2019 » <a href="{{site.baseurl}}/homework/hw1.pdf">Discriminative & generative: a preliminary study.</a><br/>
 		<li>17 Jan 2019 » <a href="{{site.baseurl}}/article/High-Speed Rail, Housing Prices and Regional Disparities - Evidence from China.pdf">High-speed rail, husing prices and regional disparities - evidence from China.</a>
-	</body>
 
 <footer>
 	    		<ul>
