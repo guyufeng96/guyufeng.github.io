@@ -4,7 +4,7 @@
 		        	<li><a href="/about">About</a></li>
 	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
-
+<p>
 {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
