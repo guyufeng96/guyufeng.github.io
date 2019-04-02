@@ -1,6 +1,6 @@
 # Welcome to Yufeng Gu's Github Page!
-	    		<ul>
-	        		<div style="flot:left;"><li><a href="/">Home</a></li>
+<ul>
+<div style="flot:left;"><li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
 	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
