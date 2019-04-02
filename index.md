@@ -1,7 +1,8 @@
-<html>
-
-<div class="blurb">
-	<h1>Hi there, I'm Yufeng Gu!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
-</html>
+# Welcome to Yufeng Gu's Github Page!
+## <a href="/">Home</a>
+## <a href="/about">About</a>
+## <a href="/cv">CV</a>
+## <a href="/blog">Blog</a>
+----------------------------------------------------------------------------
+  <li><a href="mailto:guyf96@qq.com">email</a></li>
+  <li><a href="https://github.com/guyufeng96">github.com/guyufeng96</a></li>
