@@ -20,4 +20,3 @@
 				</ul>
 			</footer>
 		</body>
-theme: jekyll-theme-hacker
