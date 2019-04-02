@@ -6,6 +6,9 @@
 	        		<a href="/cv">CV</a>
 	        		<a href="/blog">Blog</a>
 	</h2>
+	<body>
+		{{content}}
+	</body>
 <footer>
 <u1>	
 <li> <a href="mailto:guyf96@qq.com">Email</a></li>
