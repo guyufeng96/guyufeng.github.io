@@ -7,6 +7,6 @@
 <a href="/blog">Blog</a>
 
 <footer>
-  <li><a href="mailto:guyf96@qq.com">email</a></li>
-  <li><a href="https://github.com/guyufeng96">github.com/guyufeng96</a></li>
+  <p><li><a href="mailto:guyf96@qq.com">email</a></li></p>
+  <p><li><a href="https://github.com/guyufeng96">github.com/guyufeng96</a></li></p>
 </footer>
