@@ -1,6 +1,4 @@
-<h1>
-	<title>{{ page.title }}</title>
-</h1>
+# Welcome to Yufeng Gu's Github Page!
 	    		<ul>
 	        		<div style="flot:left;"><li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
