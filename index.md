@@ -1,5 +1,5 @@
 # Welcome to Yufeng Gu's Github Page!
-<ul>
+<h2>
 <div style="flot:left;"><a href="/">Home</a>
 		        	<a href="/about">About</a>
 	        		<a href="/cv">CV</a>
