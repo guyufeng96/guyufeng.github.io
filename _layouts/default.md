@@ -1,4 +1,4 @@
-	<html>
+<html>
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
@@ -13,10 +13,9 @@
 	    		</ul>
 			</nav>
 			<div>
-			
 			{{ content }}
 			
-			</div>
+</div>
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:guyf96@qq.com">Email</a></li>
