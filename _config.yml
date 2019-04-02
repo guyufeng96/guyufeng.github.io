@@ -1,4 +1,4 @@
 name: Yufeng Gu
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-theme: jekyll-theme-architect
+theme: jekyll-theme-slate
