@@ -1,18 +1,8 @@
-# Welcome to Yufeng Gu's Github Page!
-<html>
-<h2>
-<a href="/">Home</a>
-		        	<a href="/about">About</a>
-	        		<a href="/cv">CV</a>
-	        		<a href="/blog">Blog</a>
-	</h2>
-	<body>
-		{{content}}
-	</body>
-<footer>
-<u1>	
-<li> <a href="mailto:guyf96@qq.com">Email</a></li>
-            <li><a href="https://github.com/guyufeng96">github.com/guyufeng96</a></li>
-	</u1>
-	</footer>
-	</html>
+---
+layout: default
+title: Welcom to Yufeng Gu's Github Webpage!
+---
+<div>
+	<h1>Hi there, I'm Yufeng Gu!</h1>
+	<p>I am an undergraduate student of The Wangyanan Institute for Studies in Economics (WISE), Xiamen University. <a href="/about">Read more about my life...</a></p>
+</div>
