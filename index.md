@@ -1,10 +1,10 @@
 # Welcome to Yufeng Gu's Github Page!
 <html>
 <h2>
-<div style="flot:left;"><a href="/">Home</a>
+<a href="/">Home</a>
 		        	<a href="/about">About</a>
 	        		<a href="/cv">CV</a>
-	        		<a href="/blog">Blog</a><br/>
+	        		<a href="/blog">Blog</a>
 <footer>
 <u1>	
 <li> <a href="mailto:guyf96@qq.com">Email</a></li>
