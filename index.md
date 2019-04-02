@@ -6,7 +6,6 @@
 <a href="/cv">CV</a>
 <a href="/blog">Blog</a>
 
-<footer>
-  <p><li><a href="mailto:guyf96@qq.com">email</a></li></p>
-  <p><li><a href="https://github.com/guyufeng96">github.com/guyufeng96</a></li></p>
-</footer>
+----------------------------------------------------------------------------------------------------------
+  <li><a href="mailto:guyf96@qq.com">email</a></li></p>
+  <li><a href="https://github.com/guyufeng96">github.com/guyufeng96</a></li></p>
