@@ -1,4 +1,5 @@
 # Welcome to Yufeng Gu's Github Page!
+<html>
 <h2>
 <div style="flot:left;"><a href="/">Home</a>
 		        	<a href="/about">About</a>
@@ -10,3 +11,4 @@
             <li><a href="https://github.com/guyufeng96">github.com/guyufeng96</a></li>
 	</u1>
 	</footer>
+	</html>
