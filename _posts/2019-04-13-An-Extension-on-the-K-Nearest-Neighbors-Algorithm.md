@@ -14,11 +14,13 @@ The K-NN algorithm is regarded as a typical way of lazy learning. To start with,
 2. Calculate the mean (or weighted average, median) of the $$K​$$ neighbors' outputs, $$(y_1, y_2, \cdots, y_K)​$$. The mean, denoted as $$\hat{y}_0​$$, can be used as the predicted value for $$X_0​$$'s output $$y_0​$$.
 
 In the two steps above, we only have to assume that $$\hat{y}_0$$ is a function of $$(y_1, y_2, \cdots, y_K)$$, i.e.
+
 $$
 \hat{y}_0=F(y_1, y_2, \cdots, y_K)
 $$
 
 Usually, the function $$F$$ is defined as:
+
 $$
 \hat{y}_0=\frac{1}{K}\sum_{X_i\in N_K(X_0)}{y_i}
 $$
@@ -41,6 +43,7 @@ Here we make a simple definition. For two observed points $$x=(x_1, x_2, \cdots,
 ### *2.1 Minkowski Distance*
 
 The Minkowski distance is the $$k^{th}$$ root for the sum of the $$k^{th}$$ power of the difference between the absolute values of the $$p$$ observations of the two observations:
+
 $$
 MINKOWSKI(x,y)=\sqrt[k]{\sum_{i=1}^p|x_i-y_i|^k}
 $$
@@ -48,16 +51,19 @@ $$
 ### *2.2 Euclidean Distance*
 
 The Euclidean distance is the square root of the sum of the squares of differences between the $$p$$ observations of the two observations:
+
 $$
 EUCLID(x,y)=\sqrt{\sum_{i=1}^p{(x_i-y_i)^2}}
 $$
 
 It's Intuitive that the Euclidean distance is a special case of Minkowski distance where $$k=2$$. In some cases, we assume that different variables have different weights in computing the distance. Then the modified distance formula is:
+
 $$
 EUCLID_{modified}(x,y)=\sqrt{\sum_{i=1}^p{w_{(i)}(x_i-y_i)^2}}
 $$
 
 Where $$w_{(i)}=\frac{FI_{(i)}}{\sum_{j=1}^p{FI_{(j)}}}$$ denotes the weight of $$i^{th}$$ variable, and $$FI_{(i)}$$ denotes the measure for significance of $$i^{th}$$ variable. If the input variable set contains $$p$$ variables, $$x_1, x_2, \cdots, x_p$$, we eliminate the $$i^{th}$$ variable and compute the classification error or predicting error for the other $$p-1$$ variables, denoted as $$e_i$$. In this way, the significance of the $$i^{th}$$ variable is defined as:
+
 $$
 FI_{(i)}=e_i+\frac{1}{p}
 $$
@@ -67,6 +73,7 @@ It's intuitive that the larger weight $$w_{(i)}$$ correlates with larger signifi
 ### *2.3 Manhattan Distance*
 
 The Manhattan distance is another special case of Minkowski distance were $$k=1$$. Its mathematical expression is:
+
 $$
 CHEBYCHEV(x,y)=\sum_{i=1}^p{|x_i-y_i|}
 $$
@@ -76,6 +83,7 @@ The difference between Euclidean distance and Manhattan distance is just like th
 ### *2.4 Cosine Distance*
 
 The Cosine distance is different from the previous measuremnets. It measures the similarity of two variables' integral structure:
+
 $$
 COSINE(x,y)=\frac{\sum_{i=1}^p{(x_iy_i)^2}}{\sqrt{\sum_{i=1}^p{x_i^2}\sum_{i=1}^p{y_i^2}}}
 $$
@@ -91,11 +99,13 @@ There is no any strictly dominant or dominated measurement. In other words, the 
 In the previous chapter, we have discussed some ways to measure the distance in K-NN algorithm. Another problem that concerns us is that, how we can properly select the size of neighbors. i.e., we want to find some criteria that ensures the accuracy and efficiency of model fitting.
 
 Consider a very simple situation, where the parameter $$K=1$$. It's also called 1-NN method. Since we only care about the single point that is closest to $$X_0$$, there exists $$\hat{y}_0=y_i$$. Cover and Hart (1967) evaluate the efficiency of 1-NN using the out-sample error. They assume a binary output, where $$y_0=1$$ or $$0$$. Through mathematical derivation using probability theory, they proposed the following equation:
+
 $$
 E_{out_1}=P(y=1|X)[1-P(y=1|X)]+P(y=0|X)[1-P(y=0|X)]=2P(y=1|X)[1-P(y=1|X)]
 $$
 
 Cover and Hart (1967) also compared the out-sample error of 1-NN with Naive Bayesian method. Recall that the predicting error of Naive Bayesian is:
+
 $$
 E_{out_2}=1-P(y=1|X)
 $$
@@ -103,6 +113,7 @@ $$
 A significant finding is that, the out-sample error of 1-NN is smaller than twice of Naive Bayesian. Although the simple 1-NN has a relatively small error, it's strongly influenced by the differences bettwen neighbors, accounting for large variance and poor robustness. A feasible way is to increase the parameter $$K$$. However, when we select a larger $$K$$, we are actually faced with a tradeoff between the out-sample error and the robustness. In other words, small $$K$$ has an advantage on out-sample error, while large $$K$$ has better robustness. Hence, the parameter $$K$$ we choose represents our acceptable ceiling of out-sample error or floor of robustness.
 
 In regression prediction, the mean square error (MSE) is often used as the out-sample error. The formula of MSE can be written as below:
+
 $$
 MSE=\frac{1}{n}\sum_{i=1}^n{(y_i-\hat{y}_i)^2}
 $$
