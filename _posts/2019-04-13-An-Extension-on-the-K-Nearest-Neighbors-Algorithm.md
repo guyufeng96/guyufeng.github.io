@@ -94,7 +94,7 @@ Generally speaking, larger Cosine distance represents higher structural similari
 
 There is no any strictly dominant or dominated measurement. In other words, the measurement you choose depends on your objectives and the properties of your data. For example, if your data has some outliers, it's better to use Manhattan rather than Euclidean. In other cases, however, if the observed points are very close to each other, a proper way is to apply the Euclidean measurement. We won't spend too mch time on this question.
 
-## 3 How to Select an Appropriate $K$
+## 3 How to Select an Appropriate $$K$$
 
 In the previous chapter, we have discussed some ways to measure the distance in K-NN algorithm. Another problem that concerns us is that, how we can properly select the size of neighbors. i.e., we want to find some criteria that ensures the accuracy and efficiency of model fitting.
 
