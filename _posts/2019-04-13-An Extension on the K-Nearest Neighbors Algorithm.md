@@ -1,3 +1,5 @@
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+
 # An Extension on the K-Nearest Neighbors Algorithm
 
 *Yufeng Gu, Huajin Yu*
