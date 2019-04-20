@@ -18,7 +18,7 @@ As shown below, when the dimension of the data space increases from 1 to 3, the 
 
 Assuming that the sample size is $$n=12$$ and the width of a single dimension is 3, then in one-dimensional space, the sample density is $$12/3=4$$, and in two-dimensional space, the size of the sample distribution space is $$3 \times 3$$, then the sample density is $$12/9=1.33$$. In three-dimensional space, the sample density is $$12/27=0.44$$.
 
-![Figure1: Expansion](/homework/aaa.png)
+![Figure1: Expansion](/homework/aaa.jpg)
 
 Imagine, when the data space is a higher dimension, $$X=[x_1, x_2, \cdots, x_n]$$, what will happen?
 
