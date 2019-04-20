@@ -2,8 +2,6 @@
 
 *Yufeng Gu, Huajin Yu*
 
-*April 20, 2019*
-
 ## Abstract
 
 In this assignment, we talk about high-dimensional data. When the dimension becomes increasingly high, there will be a problem called dimensionality disaster. In order to solve this kind of problem, we need to reduce the dimension of data to a relatively low one.
