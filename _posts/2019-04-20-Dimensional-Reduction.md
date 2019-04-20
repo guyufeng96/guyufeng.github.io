@@ -10,7 +10,7 @@
 
 In this assignment, we talk about high-dimensional data. When the dimension becomes increasingly high, there will be a problem called dimensionality disaster. In order to solve this kind of problem, we need to reduce the dimension of data to a relatively low one.
 
-##1  High-Dimensional Data
+## 1 High-Dimensional Data
 
 High-dimensional data means that the dimension of the data is very large, even much larger than the number of samples. The obvious performance of high-dimensional data is that the data is very sparse in space and the sample size is always very small compared with the dimension of space.
 
@@ -22,7 +22,7 @@ As shown below, when the dimension of the data space increases from 1 to 3, the 
 
 Assuming that the sample size is $$n=12$$ and the width of a single dimension is 3, then in one-dimensional space, the sample density is $$12/3=4$$, and in two-dimensional space, the size of the sample distribution space is $$3 \times 3$$, then the sample density is $$12/9=1.33$$. In three-dimensional space, the sample density is $$12/27=0.44$$.
 
-![Figure1: Expansion](/Users/guyufeng/Downloads/hw4_model_selection_and_regularization/aaa.png)
+![Figure1: Expansion](/homework/aaa.png)
 
 Imagine, when the data space is a higher dimension, $$X=[x_1, x_2, \cdots, x_n]$$, what will happen?
 
@@ -59,7 +59,7 @@ Where $$tr$$ represents the trace of the matrix and $$A$$ is the data covariance
 
 PCA seeks to maximize the intrinsic information of the data after dimensional reduction and to measure the importance of that direction by measuring the size of the variance in the projection direction. However, this projection does not distinguish the data greatly, even it may make the data points indistinguishable from each other. This is also the biggest problem with PCA, which leads to poor classification using PCA in many cases. As shown in the following figure, when you project a data point onto a one-dimensional space using PCA, PCA selects an axis-2, which makes it impossible for the two clusters to be distinguished. If you select the axis-1, you will get a good distinction.
 
-![Figure 2: PCA Selection.](/Users/guyufeng/Downloads/hw4_model_selection_and_regularization/abc.jpg)
+![Figure 2: PCA Selection.](/homework/abc.jpg)
 
 ## 5 Linear Discriminant Analysis (LDA)
 
