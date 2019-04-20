@@ -8,7 +8,6 @@
 <body>
 <h3>
 {% for post in site.posts %}
-	<li>20 Apr 2019 » <a href="{{site.baseurl}}/homework/hw4.pdf">Dimensional Reduction.</a><br/>
 <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 		<li>31 Mar 2019 » <a href="{{site.baseurl}}/homework/hw2.pdf">An overview on the bootstrap.</a><br/>
