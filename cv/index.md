@@ -5,6 +5,7 @@
 		        	<li><a href="/about">About</a></li>
 	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
+	</h2>
 
 # Yufeng (Fred) Gu
 # Undergraduate Student in Xiamen University
