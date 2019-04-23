@@ -1,3 +1,11 @@
+# Welcom to Yufeng Gu's Blog!
+<head>
+<h2>
+	<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+<body>
 # Yufeng (Fred) Gu
 # Undergraduate Student in Xiamen University
 ## Education
@@ -5,3 +13,10 @@
 ## Project
 ## Working Paper
 ## Qualification
+
+<footer>
+	    		<ul>
+	        		<li><a href="mailto:guyf96@qq.com">Email</a></li>
+	        		<li><a href="https://github.com/guyufeng96">github.com/guyufeng96</a></li>
+				</ul>
+			</footer>
