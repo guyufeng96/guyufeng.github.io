@@ -1,4 +1,4 @@
-# Yufeng (Fred) Gu, WISE, XMU
+# Yufeng Gu's Profile
 <head>
 <h2>
 	<li><a href="/">Home</a></li>
@@ -7,6 +7,7 @@
 	        		<li><a href="/blog">Blog</a></li>
 	</h2>
 <h3>
+Yufeng 
 Education\\
 Internship\\
 Project\\
