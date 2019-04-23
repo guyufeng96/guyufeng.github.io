@@ -7,12 +7,12 @@
 	        		<li><a href="/blog">Blog</a></li>
 	</h2>
 <h3>
-Yufeng 
-Education\\
-Internship\\
-Project\\
-Working Paper\\
-Qualification\\
+	Yufeng</br>
+Education</br>
+Internship</br>
+Project</br>
+Working Paper</br>
+Qualification
 
 <footer>
 	    		<ul>
