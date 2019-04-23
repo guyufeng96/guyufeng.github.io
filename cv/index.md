@@ -1,4 +1,4 @@
-# Welcom to Yufeng Gu's Blog!
+# Yufeng (Fred) Gu, WISE, XMU
 <head>
 <h2>
 	<li><a href="/">Home</a></li>
@@ -7,8 +7,6 @@
 	        		<li><a href="/blog">Blog</a></li>
 	</h2>
 
-# Yufeng (Fred) Gu
-# Undergraduate Student in Xiamen University
 ## Education
 ## Internship
 ## Project
