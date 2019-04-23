@@ -6,12 +6,12 @@
 	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 	</h2>
-
-## Education
-## Internship
-## Project
-## Working Paper
-## Qualification
+<h3>
+Education\\
+Internship\\
+Project\\
+Working Paper\\
+Qualification\\
 
 <footer>
 	    		<ul>
