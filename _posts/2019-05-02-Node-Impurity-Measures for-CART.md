@@ -58,7 +58,7 @@ There are two points worth noting:
 1. Information transfer is achieved through a delivery system consisting of source, channel and sink. The source is the sender of the information, and the sink is the receiver of the information
 2. The delivery system exists in a random interference environment, and thus there is a random error in the transmission of information.
 
-Let $U$ denote the message sent and $V$ denote the message received, then we can define a channel model $P(U|V)$ . The channel transmission probability matrix $P(U|V)$ is a conditional probability matrix:
+Let *U* denote the message sent and *V* denote the message received, then we can define a channel model $P(U|V)$ . The channel transmission probability matrix $P(U|V)$ is a conditional probability matrix:
 
 $$
 \begin{bmatrix}P(u_1|v_1) & P(u_2|v_1) & \cdots & P(u_r|v_1)\\P(u_1|v_2) & P(u_2|v_2) & \cdots & P(u_r|v_2)\\ \vdots & \vdots & \ & \vdots\\P(u_1|v_q) & P(u_2|v_q) & \cdots & P(u_r|v_q)\end{bmatrix}
@@ -92,7 +92,7 @@ $$
 Ent(U|V)=\sum_j{P(v_j)[-\sum_i{P(u_i|v_j)\log_2{P(u_i|v_j)}}]}
 $$
 
-This formula is also called conditional entropy or channel equivocation. Usually, there exists $Ent(U|V)<Ent(U)$ . Thus, we can take difference between these two entropy, obtaining the gain ratio:
+This formula is also called conditional entropy or channel equivocation. Usually, there exists $Ent(U|V) < Ent(U)$ . Thus, we can take difference between these two entropy, obtaining the gain ratio:
 
 $$
 Gains(U,V)=Ent(U)-Ent(U,V)
