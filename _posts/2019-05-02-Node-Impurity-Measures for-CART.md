@@ -24,7 +24,7 @@ $$
 G=1-\sum_{j=1}^k{p^2(j)}
 $$
 
-Where $k$ denotes the amount of classes for inputs, and $$p(j)$$ the proportion of outputs that fall in class $$j$$. Particularly, if all the outputs in the sample belong to the same class, there exists $$G_{\min}=0$$. If each class has a proportion equal to $$\frac{1}{k}$$, we can get the largest Gini coefficient $$G_{\max}=1-\frac{1}{k}$$.
+Where $$k$$ denotes the amount of classes for inputs, and $$p(j)$$ the proportion of outputs that fall in class $$j$$. Particularly, if all the outputs in the sample belong to the same class, there exists $$G_{\min}=0$$. If each class has a proportion equal to $$\frac{1}{k}$$, we can get the largest Gini coefficient $$G_{\max}=1-\frac{1}{k}$$.
 
 In a classification tree, the Gini coefficient for a node $$t$$ is defined as:
 
@@ -32,7 +32,7 @@ $$
 G(t)=1-\sum_{j=1}^k{p^2(j|t)}
 $$
 
-Where $$p(j|t)=\frac{p(j,t)}{\sum_j{p(j,t)}}$$, $$p(j,t)=\frac{N_{j,t}}{N_j}$$. $$p(j|t)$$ can be interpreted as conditional probability and $$N_{j,t}$$ denotes the sample size of those inputs belong to class $$j$$. The clustering operation $$\sum_j{p(j,t)}$$ aims to make the Gini coefficients of different nodes comparable.
+Where $$ p(j|t)=\frac{p(j,t)}{\sum_j{p(j,t)}} $$, $$ p(j,t)=\frac{N_{j,t}}{N_j} $$. $$ p(j|t) $$ can be interpreted as conditional probability and $$ N_{j,t} $$ denotes the sample size of those inputs belong to class $$ j $$. The clustering operation $$ \sum_j{p(j,t)} $$ aims to make the Gini coefficients of different nodes comparable.
 
 Based on these concepts, people use the reduction of Gini coefficient to measure the decrease of impurity, whose mathematical form is:
 
