@@ -75,7 +75,7 @@ $$
 Given all the definition above, the information entropy is the expectation of the amount of information:
 
 $$
-Ent(\bold{U})=\sum_i{P(u_i)\log_2{\frac{1}{P(u_i)}}}=-\sum_i{P(u_i)\log_2{P(u_i)}}
+Ent(U)=\sum_i{P(u_i)\log_2{\frac{1}{P(u_i)}}}=-\sum_i{P(u_i)\log_2{P(u_i)}}
 $$
 
 Particularly, if $P(u_i)=1$, the probability of sending $u_i$ is 100%, and there is no uncertainty in transmission, $Ent(U)=0$. If $r$ messages have the same sending probability, i.e. $P(u_i)=\frac{1}{r}\ (I=1,2,\cdots,r)$, we have the largest uncertainty in transmission and $Ent(U)=-\log_2{\frac{1}{r}}$.
