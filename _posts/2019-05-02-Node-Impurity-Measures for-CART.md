@@ -32,7 +32,7 @@ $$
 G(t)=1-\sum_{j=1}^k{p^2(j|t)}
 $$
 
-Where $$p(j|t)=\frac{p(j,t)}{\sum_j{p(j,t)}}$$ and $$p(j,t)=\frac{N_{j,t}}{N_j}$$. $$p(j|t)$$ can be interpreted as conditional probability and $N_{j,t}$ denotes the sample size of those inputs belong to class $$j$$. The clustering operation $$\sum_j{p(j,t)}$$ aims to make the Gini coefficients of different nodes comparable.
+Where $$p(j|t)=\frac{p(j,t)}{\sum_j{p(j,t)}}$$ and $$p(j,t)=\frac{N_{j,t}}{N_j}$$. $$p(j|t)$$ can be interpreted as conditional probability and $$N_{j,t}$$ denotes the sample size of those inputs belong to class $$j$$. The clustering operation $$\sum_j{p(j,t)}$$ aims to make the Gini coefficients of different nodes comparable.
 
 Based on these concepts, people use the reduction of Gini coefficient to measure the decrease of impurity, whose mathematical form is:
 
