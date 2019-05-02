@@ -126,7 +126,7 @@ The interpretation here is similar to that for Gini coefficient.
 
 ## 4 Summary
 
-We mainly introduce two measures for node impurity: the Gini coefficient and information entropy. In spite of different theoretical background, they still have something in common. In general, both of them try to maximize the expectation of impurity decrease. Equivalently, when we are applying one of these two measures, we actually want to find the best strategy that accounts for minimal bias.
+We mainly introduce two measures for node impurity: the Gini coefficient and information entropy. In spite of different theoretical background, they still have something in common. In general, both of them try to maximize the expectation of impurity decrease. Equivalently, when we are applying one of these two measures, we actually want to find the best strategy that accounts for minimal in-sample error.
 
 ## References
 
