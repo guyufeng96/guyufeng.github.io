@@ -92,7 +92,7 @@ $$
 Ent(U|V)=\sum_j{P(v_j)[-\sum_i{P(u_i|v_j)\log_2{P(u_i|v_j)}}]}
 $$
 
-The notation $Ent(U|V)$ is also called conditional entropy or channel equivocation. Usually, there exists $Ent(U|V)<Ent(U)$. Thus, we can take difference between these two entropy, obtaining the gain ratio:
+This formula is also called conditional entropy or channel equivocation. Usually, there exists $Ent(U|V)<Ent(U)$. Thus, we can take difference between these two entropy, obtaining the gain ratio:
 
 $$
 Gains(U,V)=Ent(U)-Ent(U,V)
