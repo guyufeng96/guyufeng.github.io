@@ -19,6 +19,7 @@ The optimal grouping variable and optimal spilt point are defined as those who l
 ### 2.1 Gini Coefficient
 
 The Gini coefficient is defined as:
+
 $$
 G=1-\sum_{j=1}^k{p^2(j)}
 $$
@@ -26,6 +27,7 @@ $$
 Where $$k$$ denotes the amount of classes for inputs, and $$p(j)$$ the proportion of outputs that fall in class $$j$$. Particularly, if all the outputs in the sample belong to the same class, there exists $$G_{\min}=0$$. If each class has a proportion equal to $$\frac{1}{k}$$, we can get the largest Gini coefficient $$G_{\max}=1-\frac{1}{k}$$.
 
 In a classification tree, the Gini coefficient for a node $$t$$ is defined as:
+
 $$
 G(t)=1-\sum_{j=1}^k{p^2(j|t)}
 $$
@@ -33,6 +35,7 @@ $$
 Where $$p(j|t)=\frac{p(j,t)}{\sum_j{p(j,t)}}$$ and $$p(j,t)=\frac{N_{j,t}}{N_j}$$. $$p(j|t)$$ can be interpreted as conditional probability and $N_{j,t}$ denotes the sample size of those inputs belong to class $$j$$. The clustering operation $$\sum_j{p(j,t)}$$ aims to make the Gini coefficients of different nodes comparable.
 
 Based on these concepts, people use the reduction of Gini coefficient to measure the decrease of impurity, whose mathematical form is:
+
 $$
 \Delta G(t)=G(t)-\{\frac{N_r}{N}G(t_r)+\frac{N_l}{N}G(t_l)\}
 $$
@@ -49,23 +52,21 @@ There are two points worth noting:
 2. The delivery system exists in a random interference environment, and thus there is a random error in the transmission of information.
 
 Let $$\bold{U}$$ denote the message sent and $$\bold{V}$$ denote the message received, then we can define a channel model $$P(\bold{U}|\bold{V})$$. The channel transmission probability matrix $$P(\bold{U}|\bold{V})$$ is a conditional probability matrix:
+
 $$
-\begin{bmatrix}
-P(u_1|v_1)&P(u_2|v_1)&\cdots&P(u_r|v_1)\\
-P(u_1|v_2)&P(u_2|v_2)&\cdots&P(u_r|v_2)\\
-\vdots&\vdots&\ &\vdots\\
-P(u_1|v_q)&P(u_2|v_q)&\cdots&P(u_r|v_q)
-\end{bmatrix}
+\begin{bmatrix}P(u_1|v_1) & P(u_2|v_1) & \cdots & P(u_r|v_1)\\P(u_1|v_2) & P(u_2|v_2) & \cdots & P(u_r|v_2)\\ \vdots & \vdots & \ & \vdots\\P(u_1|v_q) & P(u_2|v_q) & \cdots & P(u_r|v_q)\end{bmatrix}
 $$
 
 Where $$P(u_i|v_j)$$ denotes the probability of sending $$u_i$$ conditional on receiving $$v_j$$, and there should exist $$\sum_{i=1}^r{P(u_i|v_j)}=1\ (j=1,2,\cdots,q)$$.
 
 The amount of information is defined as:
+
 $$
 I(u_i)=\log_2{\frac{1}{P(u_i)}}=-\log_2{P(u_i)}
 $$
 
 Given all the definition above, the information entropy is the expectation of the amount of information:
+
 $$
 Ent(\bold{U})=\sum_i{P(u_i)\log_2{\frac{1}{P(u_i)}}}=-\sum_i{P(u_i)\log_2{P(u_i)}}
 $$
@@ -73,16 +74,19 @@ $$
 Particularly, if $$P(u_i)=1$$, the probability of sending $$u_i$$ is 100%, and there is no uncertainty in transmission, $$Ent(\bold{U})=0$$. If $$r$$ messages have the same sending probability, i.e. $$P(u_i)=\frac{1}{r}\ (I=1,2,\cdots,r)$$, we have the largest uncertainty in transmission and $$Ent(\bold{U})=-\log_2{\frac{1}{r}}$$.
 
 We can further derive the posterior entropy given receiving message $$v_j$$:
+
 $$
 Ent(\bold{U}|v_j)=\sum_i{P(u_i|v_j)\log_2{\frac{1}{P(u_i|v_j)}}}=-\sum_i{P(u_i|v_j)\log_2{P(u_i|v_j)}}
 $$
 
 The expectation of posterior entropy can be written as:
+
 $$
 Ent(\bold{U}|\bold{V})=\sum_j{P(v_j)[-\sum_i{P(u_i|v_j)\log_2{P(u_i|v_j)}}]}
 $$
 
 The notation $$Ent(\bold{U}|\bold{V})$$ is also called conditional entropy or channel equivocation. Usually, there exists $$Ent(\bold{U}|\bold{V})<Ent(\bold{U})$$. Thus, we can take difference between these two entropy, obtaining the gain ratio:
+
 $$
 Gains(\bold{U},\bold{V})=Ent(\bold{U})-Ent(\bold{U},\bold{V})
 $$
@@ -90,6 +94,7 @@ $$
 The gain ratio captures how much uncertainty information $$\bold{V}$$ eliminates.
 
 In a classification tree, if we regard the value of input as $$\bold{V}$$ and output as $$\bold{U}$$, the measure for decrease of impurity can be defined:
+
 $$
 Gains(t)=Ent(t)-\{\frac{N_r}{N}Ent(t_r)+\frac{N_l}{N}Ent(t_l)\}
 $$
@@ -99,6 +104,7 @@ The interpretation for notations is the same as that for Gini coefficient. The o
 ## 3 Measure for Regression Tree
 
 Here we only talk about the case of numerical inputs. Since the outputs for a regression tree are numerical, the variance may be an ideal indicator, which can be written in the following form:
+
 $$
 R(t)=\frac{1}{N_t-1}\sum_{i=1}^N{[y_i(t)-\bar{y}(t)]^2}
 $$
@@ -106,6 +112,7 @@ $$
 Where $$N_t$$ denotes the sample size of node $$t$$ and $$y_i(t)$$ is the output for the $$i^{th}$$ observation in node $$t$$. We also calculate the average for all outputs in node $$t$$, $$\bar{y}(t)$$.
 
 In this way, the reduction of variance can be used to measure the decrease of impurity:
+
 $$
 \Delta R(t)=R(t)-\{\frac{N_r}{N}R(t_r)+\frac{N_l}{N}R(t_l)\}
 $$
