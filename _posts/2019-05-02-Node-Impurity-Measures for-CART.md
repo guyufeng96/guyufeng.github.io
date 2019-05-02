@@ -24,19 +24,7 @@ $$
 G=1-\sum_{j=1}^k{p^2(j)}
 $$
 
-Where &nbsp;
-$$k$$
-&nbsp; denotes the amount of classes for inputs, and &nbsp;
-$$p(j)$$
-&nbsp; the proportion of outputs that fall in class &nbsp;
-$$j$$
-. Particularly, if all the outputs in the sample belong to the same class, there exists &nbsp;
-$$G_{\min}=0$$
-. If each class has a proportion equal to &nbsp;
-$$\frac{1}{k}$$
-, we can get the largest Gini coefficient &nbsp;
-$$G_{\max}=1-\frac{1}{k}$$
-.
+Where $$k$$ denotes the amount of classes for inputs, and $$p(j)$$ the proportion of outputs that fall in class $$j$$. Particularly, if all the outputs in the sample belong to the same class, there exists $$G_{\min}=0$$. If each class has a proportion equal to $$\frac{1}{k}$$, we can get the largest Gini coefficient $$G_{\max}=1-\frac{1}{k}$$.
 
 In a classification tree, the Gini coefficient for a node $$t$$ is defined as:
 
