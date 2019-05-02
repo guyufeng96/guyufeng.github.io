@@ -89,7 +89,7 @@ $$
 The expectation of posterior entropy can be written as:
 
 $$
-Ent(U|V)=\sum_j{P(v_j)\[-\sum_i{P(u_i|v_j)\log_2{P(u_i|v_j)}}\]}
+Ent(U|V)=\sum_j{P(v_j)[-\sum_i{P(u_i|v_j)\log_2{P(u_i|v_j)}}]}
 $$
 
 The notation $Ent(U|V)$ is also called conditional entropy or channel equivocation. Usually, there exists $Ent(U|V)<Ent(U)$. Thus, we can take difference between these two entropy, obtaining the gain ratio:
@@ -113,7 +113,7 @@ The interpretation for notations is the same as that for Gini coefficient. The o
 Here we only talk about the case of numerical inputs. Since the outputs for a regression tree are numerical, the variance may be an ideal indicator, which can be written in the following form:
 
 $$
-R(t)=\frac{1}{N_t-1}\sum_{i=1}^N{\[y_i(t)-\bar{y}(t)\]^2}
+R(t)=\frac{1}{N_t-1}\sum_{i=1}^N{[y_i(t)-\bar{y}(t)]^2}
 $$
 
 Where $N_t$ denotes the sample size of node $t$ and $y_i(t)$ is the output for the $i^{th}$ observation in node $t$. We also calculate the average for all outputs in node $t$, $\bar{y}(t)$.
