@@ -37,7 +37,7 @@ Where $$p(j\vert t)=\frac{p(j,t)}{\sum_j{p(j,t)}}​$$ and $$p(j,t)=\frac{N_{j,t
 Based on these concepts, people use the reduction of Gini coefficient to measure the decrease of impurity, whose mathematical form is:
 
 $$
-\Delta G(t)=G(t)-\left{\frac{N_r}{N}G(t_r)+\frac{N_l}{N}G(t_l)\right}
+\Delta G(t)=G(t)-\{\frac{N_r}{N}G(t_r)+\frac{N_l}{N}G(t_l)\}
 $$
 
 Where $$G(t)$$ and $$N$$ is respectively the Gini coefficient and sample size of initial node $$t$$, and $$G(t_l), N_l$$ and $$G(t_r), N_r$$ denote those of two subnodes. The big parentheses denote the weighted average of two subnodes. The optimal category variable and spilt point can be obtained through the function $$\arg_{r,l}\max{\Delta G(t)}​$$.
@@ -101,7 +101,7 @@ The gain ratio captures how much uncertainty information $$V$$ eliminates.
 In a classification tree, if we regard the value of input as $$V$$ and output as $$U$$, the measure for decrease of impurity can be defined:
 
 $$
-Gains(t)=Ent(t)-\left{\frac{N_r}{N}Ent(t_r)+\frac{N_l}{N}Ent(t_l)\right}
+Gains(t)=Ent(t)-\{\frac{N_r}{N}Ent(t_r)+\frac{N_l}{N}Ent(t_l)\}
 $$
 
 The interpretation for notations is the same as that for Gini coefficient. The optimal category variable and spilt point can be obtained through the function $$\arg_{r,l}\max{Gains(t)}​$$.
@@ -119,7 +119,7 @@ Where $$N_t$$ denotes the sample size of node $$t$$ and $$y_i(t)$$ is the output
 In this way, the reduction of variance can be used to measure the decrease of impurity:
 
 $$
-\Delta R(t)=R(t)-\left{\frac{N_r}{N}R(t_r)+\frac{N_l}{N}R(t_l)\right}
+\Delta R(t)=R(t)-\{\frac{N_r}{N}R(t_r)+\frac{N_l}{N}R(t_l)\}
 $$
 
 The interpretation here is similar to that for Gini coefficient.
