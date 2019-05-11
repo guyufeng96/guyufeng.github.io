@@ -1,8 +1,8 @@
 # Yufeng Gu's Profile
-**Yufeng Gu (Undergraduate)**\\
-The Wang Yanan Institute for Studies in Economics (WISE)\\
-Xiamen University\\
-Major in Economics\\
+**Yufeng Gu (Undergraduate)**
+- The Wang Yanan Institute for Studies in Economics (WISE)
+- Xiamen University
+- Major in Economics
 **Research Interest**
 - Copyright System
 - Market Structure
