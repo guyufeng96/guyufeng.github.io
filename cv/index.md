@@ -10,10 +10,10 @@
 ## **Yufeng Gu (Undergraduate)**
 ### The Wang Yanan Institute for Studies in Economics (WISE)
 ### Xiamen University
-## Major in Economics
+### Major in Economics
 ## **Research Interest**
-- Copyright System
-- Market Structure
+### - Copyright System
+### - Market Structure
 
 
 <footer>
