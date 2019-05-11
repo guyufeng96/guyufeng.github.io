@@ -6,7 +6,6 @@
 		        	<li><a href="/about">About</a></li>
 	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
-	</head>
 
 <body>
 Yufeng Gu (Undergraduate)
