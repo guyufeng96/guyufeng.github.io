@@ -6,6 +6,7 @@
 	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 	</h2>
+	
 ## **Yufeng Gu (Undergraduate)**
 ### The Wang Yanan Institute for Studies in Economics (WISE)
 ### Xiamen University
@@ -13,6 +14,7 @@
 ## **Research Interest**
 - Copyright System
 - Market Structure
+
 
 <footer>
 	    		<ul>
