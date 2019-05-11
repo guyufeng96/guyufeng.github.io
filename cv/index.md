@@ -7,14 +7,15 @@
 	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 
-**Yufeng Gu (Undergraduate)**
-- The Wang Yanan Institute for Studies in Economics (WISE)
-- Xiamen University
-- Major in Economics
+<body>
+Yufeng Gu (Undergraduate)
+	<li>The Wang Yanan Institute for Studies in Economics (WISE)</li>
+	<li>Xiamen University</li>
+	<li>Major in Economics</li>
 
-**Research Interest**
-- Copyright System
-- Market Structure
+Research Interest
+<li>Copyright System</li>
+<li>Market Structure</li>
 
 
 <footer>
