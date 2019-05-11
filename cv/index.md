@@ -6,13 +6,13 @@
 	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 	</h2>
-<h3>
-	<li>Yufeng Gu</li>
-	<li>Education</li>
-	<li>Internship</li>
-	<li>Project</li>
-	<li>Working Paper</li>
-	<li>Qualification</li>
+## **Yufeng Gu (Undergraduate)**
+### The Wang Yanan Institute for Studies in Economics (WISE)
+### Xiamen University
+## Major in Economics
+## **Research Interest**
+- Copyright System
+- Market Structure
 
 <footer>
 	    		<ul>
