@@ -1,4 +1,12 @@
 # Yufeng Gu's Profile
+
+<head>
+<h2>
+	<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+
 **Yufeng Gu (Undergraduate)**
 - The Wang Yanan Institute for Studies in Economics (WISE)
 - Xiamen University
