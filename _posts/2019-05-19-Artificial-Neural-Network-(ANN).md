@@ -30,19 +30,19 @@ Perceptual machines are a kind of artificial neurons. In many neural networks, t
 
 How does the perceptual machine work? A perceptual machine produces a binary output through some binary input x1, x2, and then produces a binary output:
 
-![Figure1: Perceptron](/6-1.png)
+![Figure1: Perceptron](/_posts/6-1.png)
 
 
 
 In the figure above, the perceptual machine has three inputs $x1, x2, x3$. usually it can have more or less input. Rosenblatt proposes a simple rule to calculate the output, which uses the weight $w1, w2...$ . To show the importance of each input to the output. The output of the neuron, either 0 or 1, is less than or greater than a certain threshold by the weight and the value of the $\sum_{j}w_jx_j$. Like the weight, the threshold is a real number, which is a parameter of the neuron. The expression in algebra is:
 
-![Figure1: Perceptron](/6-2.png)
+![Figure1: Perceptron](/_posts/6-2.png)
 
 The above is the working principle of perceptual machine.
 
 Obviously, the human decision-making model is more than just perceptual machines. But this example shows how perceptual machines make decisions. It seems reasonable that a complex network of perceptors can make more accurate decisions:
 
-![Figure1: Perceptron](/6-3.png)
+![Figure1: Perceptron](/_posts/6-3.png)
 
 In this network, the first list of perceptors, known as layer 1 perceptors, are used to make three very simple decisions by weighing inputs. So what does the second floor perceptual machine do? Each of these sensors makes a decision by weighing the results of the first layer of output as input. In this way, the second layer of perceptual machines can make more complex and abstract decisions than the first layer. More complex decisions can be made at the third level. In this way, a first layer perceptual network can make very complex decisions.
 
@@ -50,7 +50,7 @@ In this network, the first list of perceptors, known as layer 1 perceptors, are 
 
 The learning algorithm looks very good. But how can we design such an algorithm for neural networks? Suppose we have a network of perceptors, and we want it to learn to solve some problems. For example, the input to the network may be the original scanned pixel data of a handwritten number. We want this network to learn a parameter and deviation that can identify the corresponding number. To understand how to learn, suppose we make some minor changes in the weight and deviation in the network. We want this small weight change to cause a change in the corresponding output in the network, a feature that makes learning possible. The following figure shows what we think Yes (this network is too simple to recognize handwritten numbers):
 
-![Figure1: Perceptron](/6-4.png)
+![Figure1: Perceptron](/_posts/6-4.png)
 
 If we know that adjusting the weight and deviation can cause a small change in the output, then we can modify the weight and deviation according to this fact, so that our network can do more in the way we want. For example, assuming that the network always classifies 9 as 8, we can find a way to make some small changes in the weight and deviation of the network, so that the network can divide the picture into 9. Then we do this again and again, changing the weight and deviation again and again, so that the output is getting better and better, and the network is learned.
 
@@ -60,15 +60,15 @@ We can solve the above problem with a new artificial neuron-sigmoid neuron. Sigm
 
 The sigmoid neurons are described below. We will describe the sigmoid neuron as we describe the perceptual machine:
 
-![Figure1: Perceptron](/6-1.png)
+![Figure1: Perceptron](/_posts/6-1.png)
 
 Like a perceptual machine, the sigmoid function has an input vector, but its input vector is no longer limited to 0 and 1, but a continuous value between 0 and 1. For example, 0.1314 can be used as the input value of sigmoid neurons. Similarly, sigmoid neurons have assigned weights and a total deviation for each input. But the output is no longer 0 and 1, but the output is $σ(wx)+b$, where $σ​$ is called the sigmoid function, which is defined as:
 
-![Figure1: Perceptron](/6-5.png)
+![Figure1: Perceptron](/_posts/6-5.png)
 
 One with input $x1, x2...$ Weight $w1, w2...$ . The output of the sigmoid neuron of the deviation b is:
 
-![Figure1: Perceptron](/6-6.png)
+![Figure1: Perceptron](/_posts/6-6.png)
 
 This formula is much more complicated than the formula of the perceptual machine. In fact, it is very similar to the perceptual machine. In order to reflect the similarity with the perceptual machine, suppose that$z=wx+b$ is a large positive number, then $e^{-z} \approx 0$, then $σ (z) \approx 1$. That is to say, when  $z=wx+b$ is a large positive number, the output of sigmoid neurons is close to 1, which is like a perceptual machine. On the contrary, the output of sigmoid tends to be close to 0 when $z=wx+b$ is a very small negative number. This is very similar to the behavior of perceptual machines. The output of sigmoid is not the same as that of the perceptual machine only when the value of $wx +b$ is not too small.
 
