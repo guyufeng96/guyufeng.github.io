@@ -1,9 +1,3 @@
----
-title: Homework6
-date: 2019-05-19 20:00:41
-tags:
----
-
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 <script type="text/x-mathjax-config">
