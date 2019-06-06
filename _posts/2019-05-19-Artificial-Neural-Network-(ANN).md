@@ -30,7 +30,7 @@ How does the perceptual machine work? A perceptual machine produces a binary out
 
 In the figure above, the perceptual machine has three inputs $x1, x2, x3$. usually it can have more or less input. Rosenblatt proposes a simple rule to calculate the output, which uses the weight $w1, w2...$ . To show the importance of each input to the output. The output of the neuron, either 0 or 1, is less than or greater than a certain threshold by the weight and the value of the $\sum_{j}w_jx_j$. Like the weight, the threshold is a real number, which is a parameter of the neuron. The expression in algebra is:
 
-![Figure2: Perceptron](/homework/6-2.jpg)
+$$output= \begin{cases} 0,\ if \sum_j{w_j x_j}\leq threshold \\ 1,\ if \sum_j{w_j x_j}> threshold\end{cases}$$
 
 The above is the working principle of perceptual machine.
 
@@ -62,7 +62,7 @@ $$\sigma(z)\equiv \frac{1}{1+e^{-z}}$$
 
 One with input $x1, x2...$ Weight $w1, w2...$ . The output of the sigmoid neuron of the deviation b is:
 
-$$b=\frac{1}{1+e^{-\sum_{j}{w_j x_j}-b}}$$
+$$\frac{1}{1+e^{-\sum_{j}{w_j x_j}-b}}$$
 
 This formula is much more complicated than the formula of the perceptual machine. In fact, it is very similar to the perceptual machine. In order to reflect the similarity with the perceptual machine, suppose that$z=wx+b$ is a large positive number, then $e^{-z} \approx 0$, then $σ (z) \approx 1$. That is to say, when  $z=wx+b$ is a large positive number, the output of sigmoid neurons is close to 1, which is like a perceptual machine. On the contrary, the output of sigmoid tends to be close to 0 when $z=wx+b$ is a very small negative number. This is very similar to the behavior of perceptual machines. The output of sigmoid is not the same as that of the perceptual machine only when the value of $wx +b$ is not too small.
 
