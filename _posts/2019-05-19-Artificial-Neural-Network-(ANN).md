@@ -58,11 +58,11 @@ The sigmoid neurons are described below. We will describe the sigmoid neuron as 
 
 Like a perceptual machine, the sigmoid function has an input vector, but its input vector is no longer limited to 0 and 1, but a continuous value between 0 and 1. For example, 0.1314 can be used as the input value of sigmoid neurons. Similarly, sigmoid neurons have assigned weights and a total deviation for each input. But the output is no longer 0 and 1, but the output is $σ(wx)+b$, where $σ​$ is called the sigmoid function, which is defined as:
 
-![Figure5: Perceptron](/homework/6-5.jpg)
+$$\sigma(z)\equiv \frac{1}{1+e^{-z}}$$
 
 One with input $x1, x2...$ Weight $w1, w2...$ . The output of the sigmoid neuron of the deviation b is:
 
-![Figure6: Perceptron](/homework/6-6.jpg)
+$$b=\frac{1}{1+e^{-\sum_{j}{w_j x_j}-b}}$$
 
 This formula is much more complicated than the formula of the perceptual machine. In fact, it is very similar to the perceptual machine. In order to reflect the similarity with the perceptual machine, suppose that$z=wx+b$ is a large positive number, then $e^{-z} \approx 0$, then $σ (z) \approx 1$. That is to say, when  $z=wx+b$ is a large positive number, the output of sigmoid neurons is close to 1, which is like a perceptual machine. On the contrary, the output of sigmoid tends to be close to 0 when $z=wx+b$ is a very small negative number. This is very similar to the behavior of perceptual machines. The output of sigmoid is not the same as that of the perceptual machine only when the value of $wx +b$ is not too small.
 
