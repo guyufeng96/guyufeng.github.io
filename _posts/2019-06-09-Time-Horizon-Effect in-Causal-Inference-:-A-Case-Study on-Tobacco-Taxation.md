@@ -48,5 +48,5 @@ Time horizon effect is a problem that is often overlooked in causal inference. T
 ## References
 
 1. Den Broeke, M. V., De Baets, S., Vereecke, A., Baecke, P., & Vanderheyden, K. (2018). Judgmental forecast adjustments over different time horizons. *Omega-international Journal of Management Science*.
-2. Stock, J. H., & Watson, M. W. (2003). *Introduction to econometrics* (Vol. 104). Boston: Addison Wesley.
-3. Perucic, A. M. (2012). The demand for cigarettes and other tobacco products. *TobTaxy Capacity Building Workshop*, 20-22 February 2012, Dublin, Ireland.
+2. Perucic, A. M. (2012). The demand for cigarettes and other tobacco products. *TobTaxy Capacity Building Workshop*, 20-22 February 2012, Dublin, Ireland.
+3. Stock, J. H., & Watson, M. W. (2003). *Introduction to econometrics* (Vol. 104). Boston: Addison Wesley.
